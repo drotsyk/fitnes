@@ -1,0 +1,362 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width:800px;
+    margin: 0 auto;
+}
+.home-page{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("home.png");
+    width: 100%; 
+    height: 94vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+}
+.fintes-hr{
+    position: absolute ;
+    bottom: 0;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+img {
+    display: block;
+    border: none;
+}
+.home-avocado{
+    display: flex;
+}
+.burger{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 70px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.97px;
+}
+hr{
+    width:40px;
+    background-color: #a2ca28;
+    height: 3px;
+    border: 0
+}
+.fitnes-hr-green{
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.fitnes-hr-red{
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    color: #ffffff;
+}
+.green-hr-text{
+    color: #fd634e;
+}
+.red-hr-text{
+    color: #a2ca28;
+}
+.avocado-img{
+    margin-left: 20px;
+}
+.fitnes-padding{
+    margin-left: 10px;
+}
+.home-fonts{
+    color: #ffffff;
+font-family: "Avenir Next Rounded Std - Demi";
+font-size: 24px;
+font-weight: 400;
+line-height: 24px;
+text-transform: uppercase;
+letter-spacing: 2.4px;
+}
+.burger-menu{
+    margin-right: 50px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.red-line-bottom{
+    width:100%;
+    position: absolute;
+    bottom: 0;
+}
+.green{
+    padding-top: 20px;
+    background-color:#a2ca28;
+}
+.red{
+    background-color: #fd634e;
+}
+.fitnes-first{
+    width: 300px;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.fintes-second{
+    width: 300px;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.green-1{
+    display: flex;
+}
+.green-2{
+    display: flex;
+}
+.red-photo{
+    object-fit: cover;
+    height:250px;
+    width:300px;
+}
+.red-photo-2{
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+}
+.red-2{
+    display: flex;
+}
+.green-menu{
+    display: flex;
+    
+}
+.red-1{
+    display: flex;
+    flex-direction: column;
+}
+.red-img{
+    display: flex;
+}
+.red-text{
+    display: flex;
+}
+.img-woman{
+    width:500px ;
+    height: auto;
+}
+.img-clock{
+    width: 500px;
+    height:auto;
+}
+.red-text-first{
+    display: flex;
+}
+.red-text-white{
+    background-color: #ffffff;
+    width: 300px;
+    text-align: left;
+}
+.red-text-green{
+    height: 250px;
+    background-color: #a2ca28;
+    width: 500px;
+    box-shadow: 0 0 62px rgba(0, 0, 0, 0.2);
+}
+.red-text-green-1{
+    height: 250px;
+    background-color:#ffffff;
+    width: 500px;
+}
+.red-text-white-1{
+    background-color: #a2ca28;
+    width: 300px;
+    text-align: left;
+}
+.footer{
+    background-image: url("footer-img.png");
+    width: 100%; 
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+    margin: 0;
+}
+.footer-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gray-mango{
+    margin:0 auto;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+}
+.fonts-green{
+    color: #ffffff;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+}
+
+.green-red-text{
+    color: #fd634e;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+text-transform: uppercase;
+/* Text style for "i, t’s all" */
+letter-spacing: 1.4px;
+}
+.green-green-text{
+    color: #a2ca28;
+    font-family: 'Open Sans', sans-serif;
+font-size: 35px;
+font-weight: 300;
+line-height: 30px;
+text-transform: uppercase;
+}
+.lorem{
+    color: #656e74;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+}
+.green-h1{
+    color: #ffffff;
+font-family: "Open Sans";
+font-size: 35px;
+font-weight: 300;
+line-height: 30px;
+text-transform: uppercase;
+}
+.green-lorem{
+    color: #ffffff;
+font-family: "Open Sans";
+font-size: 13px;
+font-weight: 400;
+line-height: 21px;
+}
+.white-h1{
+    color: #ffffff;
+font-family: Montserrat;
+font-size: 17px;
+font-weight: 400;
+line-height: 22px;
+text-transform: uppercase;
+/* Text style for "i, mprove" */
+letter-spacing: 1.7px;
+}
+.white-mango{
+    display:flex;
+    justify-content: space-between;
+}
+.one-man{
+    display: flex;
+    justify-content: space-between;
+}
+.Strawberry{
+    display: flex;
+    justify-content: space-between;
+}
+.read-more{
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+/* Text style for "Read More" */
+color: #a2ca28;
+text-decoration: underline;
+}
+.text-footer{
+    color: #ffffff;
+font-family: "Open Sans";
+font-size: 45px;
+font-weight: 400;
+line-height: 40px;
+padding-bottom: 25px;
+}
+.footer-text{
+    height: 40em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center 
+}
+.footer-line{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.last-footer-1{
+    display: flex;
+}
+.last-footer{
+    background-color: black;
+   
+}
+.display-column{
+    display: flex;
+    flex-direction: column;
+}
+.footer-p{
+    color: #ffffff;
+font-family: "Open Sans";
+font-size: 15px;
+font-weight: 400;
+line-height: 12px;
+}
+.last-footer-text{
+    color: #8297a7;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+.flex-email{
+    display: flex;
+}
+.footer-buttom{
+    width: 182px;
+height: 30px;
+border-radius: 3px;
+background-color: #a2ca28;
+}
+a .footer-buttom{
+    color: #ffffff;
+    text-decoration: none;
+font-family: "Proxima Nova - Semibold";
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+}
+.input-name input{
+    width: 100px;
+    height: 25px;
+    margin-right: 10px;
+}
+.input-email input{
+    height: 25px;
+    margin-right: 10px;
+}
