@@ -9,6 +9,19 @@ body{
     width:1195px;
     margin: 0 auto;
 }
+.block-flex-colum{
+    max-width: 256px;
+}
+.fintes-second .lorem{
+    width: 297px;
+    text-align: center;
+    margin: 0 auto;
+}
+.fitnes-first .lorem{
+    width: 297px;
+    text-align: center;
+    margin: 0 auto;
+}
 .home-page{
     padding-top: 50px;
     padding-bottom: 20px;
@@ -48,7 +61,7 @@ img {
     letter-spacing: 0.97px;
 }
 .fonts-green-1{
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     color:  #0a1f3f;
     font-size: 24px;/* Приближение из-за подстановки шрифтов */
     font-weight: 400;
@@ -72,7 +85,7 @@ hr{
     color: #ffffff;
 }
 .fitnes-hr-red{
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
@@ -375,14 +388,14 @@ color: #ffffff;
 }
 .lorem{
     color: #656e74;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
 }
 .green-h1-1{
     color: #ffffff;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 35px;
     font-weight: 300;
     line-height: 30px;
@@ -393,7 +406,7 @@ color: #ffffff;
 }
 .green-h1{
     color: #ffffff;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 35px;
     font-weight: 300;
     line-height: 30px;
@@ -404,7 +417,7 @@ color: #ffffff;
 }
 .green-lorem{
     color: #ffffff;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 21px;
@@ -413,7 +426,7 @@ color: #ffffff;
 }
 .lorem-1{
     color: #656e74;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
@@ -421,11 +434,22 @@ color: #ffffff;
 }
 .lorem-2{
     color: #656e74;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 26px; 
     margin-left: 39px; 
+    max-width: 297px;
+}
+.red-text-green .green-lorem{
+    max-width: 612px;
+}
+.red-text-green-1 .lorem-1{
+    max-width:625px;
+    text-align: left;
+}
+.red-text-white-1 .green-lorem-1{
+    max-width: 297px;
 }
 .green-green-text-2{
     color: #a2ca28;
@@ -477,7 +501,7 @@ color: #ffffff;
 }
 .green-lorem-1{
     color: #ffffff;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
@@ -508,7 +532,7 @@ color: #ffffff;
     justify-content: space-between;
 }
 .read-more{
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
@@ -518,7 +542,7 @@ color: #ffffff;
 }
 .text-footer{
     color: #ffffff;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 45px;
     font-weight: 400;
     line-height: 40px;
@@ -541,14 +565,18 @@ color: #ffffff;
 }
 .last-footer{
     background-color: black;
+    min-height: 500px;
 }
 .display-column{
     display: flex;
     flex-direction: column;
 }
+a:hover{
+    opacity: 0.6;
+}
 .footer-p{
     color: #ffffff;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 12px;
@@ -557,7 +585,7 @@ color: #ffffff;
 }
 .last-footer-text{
     color: #8297a7;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -566,7 +594,10 @@ color: #ffffff;
     display: flex;
     margin-top: 53px;
 }
-.footer-buttom{
+
+.arrow-flex{
+    display: flex;
+    margin-left: 30px;
     width: 182px;
     height: 49px;
     border-radius: 3px;
@@ -579,11 +610,11 @@ color: #ffffff;
     line-height: 49px;
     text-align: center;
     text-decoration: none;
-   
-}
-.arrow-flex{
-    display: flex;
-    margin-left: 30px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-left: 6px;
+    padding-left: 32px;
 }
 .input-name{
     width: 201px;
@@ -592,7 +623,6 @@ color: #ffffff;
     margin-right: 10px;
     padding:  20px ;
 }
-
 .input-email{
     padding:  20px ;
     width: 340px;
@@ -635,5 +665,20 @@ color: #ffffff;
     height: 11px; 
     margin-top: 20px;
     margin-left: 5px;
+}
+.footer-lorem{
+    max-width: 479px;
+    color: #ffffff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.16px;
+}
+.resources .last-footer-text{
+    max-width: 373px;
+}
+.about-us .last-footer-text{
+    max-width: 446px;
 }
 
