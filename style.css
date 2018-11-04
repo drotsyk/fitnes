@@ -4,6 +4,7 @@
 body{
     padding: 0;
     margin: 0;
+    min-width:1195px;
 }
 .wrapper{
     width:1195px;
@@ -681,4 +682,199 @@ a:hover{
 .about-us .last-footer-text{
     max-width: 446px;
 }
+.triangles {
+    --triangle-color: #000;
+    --triangle-height: 100px;
+    --triangle-width: 100vw;
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    height: var(--triangle-height);
+}
+  .triangles:after,
+  .triangles:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    display: block;
+    border-style: solid;
+}
+  .triangles:before {
+    left: 0;
+    border-width: var(--triangle-height) 0 0 var(--triangle-width);
+    border-color: transparent transparent transparent #000;
+}
+  .triangles:after {
+    right: 0;
+    border-width: 0 0 var(--triangle-height) var(--triangle-width);
+    border-color: transparent transparent var(--triangle-color) transparent ;
+}
+  .line-red:after{
+    background: #fd634e;
+    border-radius: 60%;
+    content: "";
+    display: block;
+    height:25px;
+    left: -80%;
+    position: absolute;
+    bottom: 0;
+    width: 150%;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+.burger{
+    flex-direction: column;
+    text-align: center;
+}
+.burger-menu{
+    margin: 0 auto;
+}
+.media-dis{
+    margin: 0 auto;
+}
+.avocado-img{
+    margin: 0 auto;
+}
+.home-avocado{
+    width: 50%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fintes-hr{
+    width: 50%;
+}
+.fitnes-hr-green{
+    width: 60%;
+    text-align: right;
+}
+.green-menu {
+    width: 45%;
+    margin-bottom: 50px;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+}
+.icon{
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.fonts-green{
+    text-align: center;
+}
+.fonts-green-1{
+    text-align: center;
+}
+.fonts-green-link{
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+.green-1{
+    flex-direction: column;
+    padding: 0;
+}
+.fitnes-first{
+    width: 100%;
+}
+.img-woman{
+    width:100%;
+}
+.green-2{
+    flex-direction: column;
+}
+.img-clock{
+    width: 100%;
+}
+.fintes-second{
+    width: 100%;
+}
+.red-img{
+    flex-direction: column;
+}
+.red-photo{
+    width: 100%;
+}
+.red-photo-2{
+    width: 100%
+}
+.red-text-first{
+    flex-direction: column;
+}
+.red-text-white{
+    width: 100%;
+}
+.red-text-green{
+    width: 100%
+}
+.red-img{
+    flex-direction: column;
+}
+.red-photo-3{
+    width: 100%
+}
+.green-lorem-1{
+    margin-top: -20px;
+}
+.red-photo-4{
+    width: 100%;
+}
+.red-text{
+    flex-direction: column;
+}
+.red-text-green-1{
+    width: 100%
+}
+.red-text-white-1{
+    width: 100%
+}
+.last-footer-1{
+    flex-direction: column;
+}
+.text-footer{
+    text-align: center;
+}
+.content-column{
+    margin: 0;
+}
+.footer-icon-size{
+    margin: 0;
+}
+.content-flex{
+    flex-direction: column;
+}
+form{
+    flex-direction: column;
+    margin: 0 auto;
+}
+.input-email{
+    width: 201px;
+    height: 49px;
+    border-radius: 2px;
+    margin-right: 10px;
+    padding: 20px;
+    
+}
+.footer-p{
+    text-align: center;
+}
+.last-footer-text{
+    text-align: center;
+    margin: 0 auto;
+}
+button{
+    margin: 0;
+}
+}
+@media only screen  and (max-device-width:479px){
 
+}
+@media only screen  and (max-device-width:767px) and (min-device-width: 480px){
+
+}
