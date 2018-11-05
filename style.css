@@ -1009,39 +1009,34 @@ button{
 }
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 479px){
-    .wrapper{
-        width: 100%;
-    }
-    .block-flex-colum{
-        margin: 0 auto;
-        max-width: 100%;
-    }
-    .green-menu {
-        text-align: center;
-        margin: 0 auto;
-    }
-    .burger{
-        margin-top: 100px;
-        min-height: 600px;
-        justify-content: space-between;
-    }
-    .burger-menu{
-        font-size: 40px;
-        margin-bottom: 20px;
-        font-weight:600;
-        line-height: 49px;
-    }
-    .home-fonts{
-        font-size: 40px;
-        font-weight:600;
-        line-height: 49px; 
-    }
-    .fitnes-hr-red{
-        font-size: 25px;
-        font-weight:600;
-        line-height: 49px;
-    }
-    .icon{
-        width: 30%;
-    }
+.wrapper{
+    width: 100%;
+}
+.block-flex-colum{
+    margin: 0 auto;
+    max-width:65%;
+}
+.green-menu {
+    text-align: center;
+    margin: 0 auto;
+}
+.burger-menu{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight:600;
+    line-height: 49px;
+}
+.home-fonts{
+    font-size: 40px;
+    font-weight:600;
+    line-height: 49px; 
+}
+.fitnes-hr-red{
+    font-size: 25px;
+    font-weight:600;
+    line-height: 49px;
+}
+.icon{
+    width: 30%;
+}
 }
