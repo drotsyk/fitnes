@@ -10,6 +10,9 @@ body{
     width:1195px;
     margin: 0 auto;
 }
+.media-dis{
+    display: flex;
+}
 .block-flex-colum{
     max-width: 256px;
 }
@@ -727,12 +730,97 @@ a:hover{
 .burger{
     flex-direction: column;
     text-align: center;
+    padding: 0;
+    min-height: 400px;
+    justify-content: space-between
+}
+.block-flex-colum{
+    max-width: 100%;
+}
+.media-column{
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
 }
 .burger-menu{
     margin: 0 auto;
+    font-size:30px;
+    padding-top: 20px;
 }
 .media-dis{
     margin: 0 auto;
+}
+.green-red-text{
+    margin-top: 20px;
+}
+.lorem-2{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+.one-man-img{
+    display: none;
+}
+.media-green{
+    margin: 0 auto;
+}
+.green-h1{
+   text-align: center;
+}
+.media-red{
+    margin: 0 auto;
+}
+.green-red-text-1{
+    text-align: center;
+    font-size: 35px;
+}
+.green-green-text-2{
+    text-align: center;
+}
+.green-red-text-2{
+    text-align: center;
+    font-size: 35px;
+}
+.strawberry-img{
+    display: none;
+}
+.lorem-1{
+    font-size: 30px;
+    margin: 0 auto;
+}
+.red-text-green-1 .lorem-1{
+    text-align: center;
+}
+.media-h1{
+    text-align: center;
+    margin: 0 auto;
+}
+.white-mango-img{
+    display: none;
+}
+.footer-p{
+    font-size: 30px;
+}
+.last-footer-text{
+    font-size: 30px;
+}
+.green-lorem-1{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+.green-lorem{
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center
+}
+.lorem{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.read-more{
+    font-size: 25px;
+    padding-bottom: 20px;
 }
 .avocado-img{
     margin: 0 auto;
@@ -744,11 +832,7 @@ a:hover{
     justify-content: space-between;
 }
 .fintes-hr{
-    width: 50%;
-}
-.fitnes-hr-green{
-    width: 60%;
-    text-align: right;
+   text-align: right;
 }
 .green-menu {
     width: 45%;
@@ -763,22 +847,32 @@ a:hover{
 }
 .fonts-green{
     text-align: center;
+    font-size: 40px;
+    font-weight:400;
+    line-height: 49px;
 }
 .fonts-green-1{
     text-align: center;
+    font-size: 32px;
+    font-weight:600;
+    line-height: 49px;
 }
 .fonts-green-link{
     text-align: center;
     position: relative;
     margin-bottom: 50px;
+    font-size: 32px;
+    font-weight:400;
+    line-height: 49px;
 }
 .wrapper{
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
 }
 .green-1{
     flex-direction: column;
     padding: 0;
+    width: 100%
 }
 .fitnes-first{
     width: 100%;
@@ -846,6 +940,11 @@ a:hover{
 .footer-icon-size{
     margin: 0;
 }
+.footer-icon{
+    max-width: 50%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
 .content-flex{
     flex-direction: column;
 }
@@ -872,9 +971,77 @@ button{
     margin: 0;
 }
 }
-@media only screen  and (max-device-width:479px){
-
+@media only screen  and (min-device-width: 480px) and (max-device-width:767px){
+.wrapper{
+    width: 80%;
 }
-@media only screen  and (max-device-width:767px) and (min-device-width: 480px){
-
+.block-flex-colum{
+    margin: 0 auto;
+    max-width: 100%;
+}
+.green-menu {
+    text-align: center;
+    margin: 0 auto;
+}
+.burger{
+    margin-top: 100px;
+    min-height: 600px;
+    justify-content: space-between;
+}
+.burger-menu{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight:600;
+    line-height: 49px;
+}
+.home-fonts{
+    font-size: 40px;
+    font-weight:600;
+    line-height: 49px; 
+}
+.fitnes-hr-red{
+    font-size: 25px;
+    font-weight:600;
+    line-height: 49px;
+}
+.icon{
+    width: 30%;
+}
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 479px){
+    .wrapper{
+        width: 100%;
+    }
+    .block-flex-colum{
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .green-menu {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .burger{
+        margin-top: 100px;
+        min-height: 600px;
+        justify-content: space-between;
+    }
+    .burger-menu{
+        font-size: 40px;
+        margin-bottom: 20px;
+        font-weight:600;
+        line-height: 49px;
+    }
+    .home-fonts{
+        font-size: 40px;
+        font-weight:600;
+        line-height: 49px; 
+    }
+    .fitnes-hr-red{
+        font-size: 25px;
+        font-weight:600;
+        line-height: 49px;
+    }
+    .icon{
+        width: 30%;
+    }
 }
