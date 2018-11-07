@@ -29,7 +29,7 @@ body{
 .home-page{
     padding-top: 50px;
     padding-bottom: 20px;
-    background-image: url("home.png");
+    background-image: url("img/home.png");
     width: 100%; 
     height: 100vh;
     background-position: center;
@@ -72,7 +72,7 @@ img {
     text-align: left;
     color: #ffffff;
     padding-bottom: 23px;
-    margin-top: 23px;
+    padding-top: 23px;
 }
 hr{
     width:40px;
@@ -237,14 +237,14 @@ color: #ffffff;
     display: flex;
 }
 .red-photo{
-    background: url(two-people.png) 100% no-repeat;
+    background: url(img/two-people.png) 100% no-repeat;
     width: 40%;
     background-size: cover;
     min-height: 330px;
 }
 .red-photo-2{
     width: 60%;
-    background: url(man.png) 100% no-repeat;
+    background: url(img/man.png) 100% no-repeat;
     background-size: cover;
     min-height: 330px;
 }
@@ -269,25 +269,25 @@ color: #ffffff;
 }
 .img-woman{
     width: 60%;
-    background:url(woman.png)  100% no-repeat;
+    background:url(img/woman.png)  100% no-repeat;
     background-size: cover;
     min-height: 330px;
     position: relative;
 }
 .red-photo-3{
-    background: url(grapes.png) 100% no-repeat;
+    background: url(img/grapes.png) 100% no-repeat;
     width:60%;
     min-height: 330px;
     background-size: cover;
 }
 .red-photo-4{
-    background: url(mango.png);
+    background: url(img/mango.png);
     width: 40%;
     min-height: 330px;
     background-size: cover;
 }
 .img-clock{
-    background: url(clock.png) 100% no-repeat;
+    background: url(img/clock.png) 100% no-repeat;
     background-size: cover;
     width: 60%;
     min-height: 394px;
@@ -319,7 +319,7 @@ color: #ffffff;
     text-align: left;
 }
 .footer{
-    background-image: url("footer-img.png");
+    background-image: url("img/footer-img.png");
     width: 100%; 
     height:100vh;
     background-position: center;
@@ -1005,38 +1005,43 @@ button{
     line-height: 49px;
 }
 .icon{
-    width: 20%;
+    width: 30%;
 }
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 479px){
-.wrapper{
-    width: 100%;
-}
-.block-flex-colum{
-    margin: 0 auto;
-    max-width:60%;
-}
-.green-menu {
-    text-align: center;
-    margin: 0 auto;
-}
-.burger-menu{
-    font-size: 40px;
-    margin-bottom: 20px;
-    font-weight:600;
-    line-height: 49px;
-}
-.home-fonts{
-    font-size: 40px;
-    font-weight:600;
-    line-height: 49px; 
-}
-.fitnes-hr-red{
-    font-size: 25px;
-    font-weight:600;
-    line-height: 49px;
-}
-.icon{
-    width: 20%;
-}
+    .wrapper{
+        width: 100%;
+    }
+    .block-flex-colum{
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .green-menu {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .burger{
+        margin-top: 100px;
+        min-height: 600px;
+        justify-content: space-between;
+    }
+    .burger-menu{
+        font-size: 40px;
+        margin-bottom: 20px;
+        font-weight:600;
+        line-height: 49px;
+    }
+    .home-fonts{
+        font-size: 40px;
+        font-weight:600;
+        line-height: 49px; 
+    }
+    .fitnes-hr-red{
+        font-size: 25px;
+        font-weight:600;
+        line-height: 49px;
+    }
+    .icon{
+        width: 30%;
+    }
 }
