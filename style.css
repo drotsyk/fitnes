@@ -716,20 +716,18 @@ a:hover{
 }
 /*---------------------------------------------------------------------------------------*/
 @media screen and (min-width: 1024px) and (max-width: 1199px){
-    .wrapper{
-        width: 98%
-    }
-
+.wrapper{
+    width: 98%
+}
 }
 @media screen and (min-width: 768px) and (max-width: 1023px){
-    .footer{
-        width: 100%;
-    }
+.footer{
+    width: 100%;
+}
 .footer-text{
     padding: 0
 }
 .home-page{
-    height: 100%;
 }
 .size-icon{
     margin:0;
@@ -954,9 +952,6 @@ a:hover{
     .footer-text{
         padding: 0
     }
-.home-page{
-    height: 100%;
-}
 .size-icon{
     margin: 0;
 }
@@ -978,7 +973,6 @@ a:hover{
 .burger-menu{
     margin: 0 auto;
     line-height:1;
-    font-size:60px;
     padding-top: 20px;
 }
 .media-dis{
@@ -990,9 +984,7 @@ a:hover{
     width: 100%;
     text-align:center;
 }
-.fitnes-hr-green{
-    font-size: 80px;
-}
+
 .home-fonts{
     font-size: 40px;
 }
@@ -1262,17 +1254,16 @@ a:hover{
 }
 }
 @media only screen  and (max-width:419px){
-    .footer{
-        height: 100%;
-    }
-    .footer-text{
-        padding: 0
-    }
+.footer{
+    height: 100%;
+}
+.footer-text{
+    padding: 0
+}
 .wrapper{
     width: 100%;
 }
 .home-page{
-    height: 100%;
 }
 .size-icon{
     margin: 0;
@@ -1285,7 +1276,6 @@ a:hover{
     flex-direction: column;
     text-align: center;
     padding: 0;
-    
 }
 .avocado-img{
     margin: 0;
@@ -1293,7 +1283,6 @@ a:hover{
 .burger-menu{
     margin: 0 auto;
     line-height:1;
-    font-size:60px;
     padding-top: 20px;
 }
 .media-dis{
@@ -1306,7 +1295,7 @@ a:hover{
     text-align:center;
 }
 .fitnes-hr-green{
-    font-size: 80px;
+    font-size: 25px;
 }
 .home-fonts{
     font-size: 40px;
