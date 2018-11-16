@@ -5,7 +5,7 @@
 body{
     padding: 0;
     margin: 0;
-    min-width:1195px;
+    min-width: 1195px;
 }
 .wrapper{
     width:1195px;
@@ -19,12 +19,12 @@ body{
     text-align: left;
 }
 .fintes-second .lorem{
-    width: 297px;
+    width: 90%;
     text-align: center;
     margin: 0 auto;
 }
 .fitnes-first .lorem{
-    width: 297px;
+    width: 90%;
     text-align: center;
     margin: 0 auto;
 }
@@ -62,7 +62,7 @@ img {
     color: #ffffff;
     font-size: 13px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.71;
     text-transform: uppercase;
     letter-spacing: 0.97px;
 }
@@ -84,7 +84,7 @@ hr{
 .fitnes-hr-green{
     font-size: 40px;
     font-weight: 400;
-    line-height: 70px;
+    line-height: 5;
     text-transform: uppercase;
     font-family: 'avenir-next', sans-serif;
     color: #ffffff;
@@ -117,7 +117,7 @@ hr{
     font-family: 'avenir-next', sans-serif;
     font-size: 24px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.71;
     text-transform: uppercase;
     letter-spacing: 2.4px;
 }
@@ -126,7 +126,7 @@ hr{
     font-family: 'avenir-next', sans-serif;
     color: #ffffff;
     font-size: 13px;
-    line-height: 24px;
+    line-height: 1.71;
     text-align: right;
     text-decoration: none;
     text-transform: uppercase;
@@ -153,7 +153,7 @@ hr{
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.8;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -172,7 +172,7 @@ hr{
     font-family: 'Raleway', sans-serif; 
     font-size: 14px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 1.5;
     text-transform: uppercase;
     /* Text style for "2, 4th aug" */
     letter-spacing: 1.4px;
@@ -188,7 +188,7 @@ hr{
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.8;
     margin-left: 49px;
 }
 .img-clock .red-mango{
@@ -201,7 +201,7 @@ hr{
     font-family: 'Open Sans', sans-serif;
 font-size: 12px;
 font-weight: 400;
-line-height: 26px;
+line-height: 1.8;
 color: #ffffff;
 }
 .green{
@@ -350,16 +350,15 @@ color: #ffffff;
     color: #ffffff;
     font-size: 14px;/* Приближение из-за подстановки шрифтов */
     font-weight: 400;
-    line-height: 32px;/* Приближение из-за подстановки шрифтов */
-    
-    line-height: 24px;
+    line-height: 2.2;/* Приближение из-за подстановки шрифтов */
+    line-height: 1.71;
 }
 .fonts-green-link{
     font-family: 'proxima-nova', sans-serif;
     color: #ffffff;
     font-size: 14px;/* Приближение из-за подстановки шрифтов */
     font-weight: 400;
-    line-height: 32px;/* Приближение из-за подстановки шрифтов */
+    line-height: 2.2;/* Приближение из-за подстановки шрифтов */
     
     position: absolute;
     bottom: 0;
@@ -374,7 +373,7 @@ color: #ffffff;
     font-size: 14px;
     font-weight: 400;
     margin-top: 55px;
-    line-height: 22px;
+    line-height: 2.2;
     text-transform: uppercase;
     /* Text style for "i, t’s all" */
     letter-spacing: 1.4px;
@@ -385,7 +384,7 @@ color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 35px;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 2.2;
     text-transform: uppercase;
 }
 .lorem{
@@ -393,14 +392,14 @@ color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.8;
 }
 .green-h1-1{
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 35px;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 2.1;
     text-transform: uppercase;
     margin-left: 40px;
     margin-top: 11px;
@@ -411,7 +410,7 @@ color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 35px;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 2.1;
     text-transform: uppercase;
     margin-top: 64px;
     margin-left: 61px;
@@ -422,7 +421,7 @@ color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 400;
-    line-height: 21px;
+    line-height: 1.5;
     margin-top: 30px;
     margin-left: 61px;
 }
@@ -431,7 +430,7 @@ color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.8;
     margin-left: 39px; 
 }
 .lorem-2{
@@ -439,26 +438,25 @@ color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 26px; 
+    line-height: 1.8; 
     margin-left: 39px; 
-    max-width: 297px;
+    max-width: 90%;
 }
 .red-text-green .green-lorem{
-    max-width: 612px;
+    max-width: 90%;
 }
 .red-text-green-1 .lorem-1{
     max-width:90%;
-    
 }
 .red-text-white-1 .green-lorem-1{
-    max-width: 297px;
+    max-width: 90%;
 }
 .green-green-text-2{
     color: #a2ca28;
     font-family: 'Open Sans', sans-serif;
     font-size: 35px;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 2.2;
     text-transform: uppercase; 
     margin-left: 39px;
     margin-top: 13px;
@@ -470,7 +468,7 @@ color: #ffffff;
     font-size: 14px;
     font-weight: 400;
     margin-top: 55px;
-    line-height: 22px;
+    line-height: 1.5;
     text-transform: uppercase;
     /* Text style for "i, t’s all" */
     letter-spacing: 1.4px;
@@ -482,7 +480,7 @@ color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 35px;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 2.1;
     text-transform: uppercase;
     margin-left: 39px;
     padding-bottom: 40px;
@@ -493,7 +491,7 @@ color: #ffffff;
     font-size: 14px;
     font-weight: 400;
     margin-top: 55px;
-    line-height: 22px;
+    line-height: 1.5;
     text-transform: uppercase;
     /* Text style for "i, t’s all" */
     letter-spacing: 1.4px;
@@ -506,7 +504,7 @@ color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.8;
     margin-left: 40px;
 }
 .white-h1{
@@ -514,7 +512,7 @@ color: #ffffff;
     font-family: 'Raleway', sans-serif;
     font-size: 17px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 1.5;
     text-transform: uppercase;
     /* Text style for "i, mprove" */
     letter-spacing: 1.7px;
@@ -537,7 +535,7 @@ color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.8;
     /* Text style for "Read More" */
     color: #a2ca28;
     text-decoration: underline;
@@ -547,7 +545,7 @@ color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 45px;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 2.8;
     padding-bottom: 25px;
 }
 .footer-text{
@@ -581,7 +579,7 @@ a:hover{
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 400;
-    line-height: 12px;
+    line-height: 0.8;
     margin-top: 67px;
     padding-bottom: 29px;
 }
@@ -590,7 +588,7 @@ a:hover{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.71;
 }
 .flex-email{
     display: flex;
@@ -609,7 +607,7 @@ a:hover{
     font-family: 'proxima-nova', sans-serif;
     font-size: 15px;
     font-weight: 400;
-    line-height: 49px;
+    line-height: 3.5;
     text-align: center;
     text-decoration: none;
     border: 0;
@@ -674,7 +672,7 @@ a:hover{
     font-family: "Open Sans",sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 23px;
+    line-height: 1.7;
     letter-spacing: 0.16px;
 }
 .resources .last-footer-text{
@@ -723,6 +721,12 @@ a:hover{
 }
 /*---------------------------------------------------------------------------------------*/
 @media screen and (min-width: 768px) and (max-width: 1023px){
+.home-page{
+    height: 100%;
+}
+.size-icon{
+    margin:0;
+}
 .wrapper{
     width: 100%;
 }
@@ -778,7 +782,7 @@ a:hover{
     margin: 0 auto;
 }
 .fonts-green-1{
-    line-height: 30px;
+    line-height: 2.2;
     font-size: 40px;
 }
 .fonts-green{
@@ -792,7 +796,7 @@ a:hover{
     width: 100%;
 }
 .fitnes-first .lorem{
-    line-height: 30px;
+    line-height: 2.2;
     font-size: 25px;
     padding-bottom: 15px;
 }
@@ -801,13 +805,13 @@ a:hover{
 }
 .read-more{
     font-size: 20px;
-    line-height: 25px;
+    line-height: 1.7;
 }
 .gray-mango{
     width: 2.5%;
 }
 .fintes-second .lorem{
-    line-height: 30px;
+    line-height: 2.2;
     font-size: 25px;
     padding-bottom: 15px;
 }
@@ -836,12 +840,12 @@ a:hover{
 }
 .green-red-text-2{
     font-size: 30px;
-    line-height: 20px;
+    line-height: 1.4;
 }
 .lorem-2{
     margin: 0 auto;
     font-size: 25px;
-    line-height: 30px;
+    line-height: 2.2;
     padding-bottom: 10px;
 }
 .red-text-green,.green-h1{
@@ -854,7 +858,7 @@ a:hover{
 }
 .red-text-green .green-lorem{
     font-size: 25px;
-    line-height: 25px;
+    line-height: 1.7;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -872,16 +876,16 @@ a:hover{
 .lorem-1{
     margin: 0 auto;
     font-size: 25px;
-    line-height: 30px;
+    line-height: 2.2;
     padding-bottom: 10px;
 }
 .white-h1{
     font-size: 25px;
-    line-height: 30px;
+    line-height: 2.2;
 }
 .green-red-text-1{
     font-size: 25px;
-    line-height: 30px;
+    line-height: 2.2;
 }
 .red-text-white-1,.white-mango{
     width: 100%;
@@ -890,7 +894,7 @@ a:hover{
 }
 .red-text-white-1 .green-lorem-1{
     font-size: 25px;
-    line-height: 30px;
+    line-height: 2.2;
     margin: 0 auto;
     padding-bottom: 15px;
 }
@@ -905,7 +909,7 @@ a:hover{
 }
 .footer-p,.last-footer-text{
     font-size: 25px;
-    line-height: 30px;
+    line-height: 2.2;
 }
 .last-footer .wrapper{
     width: 50%
@@ -935,6 +939,12 @@ a:hover{
 }
 }
 @media only screen  and (min-width: 420px) and (max-width:767px){
+.home-page{
+    height: 100%;
+}
+.size-icon{
+    margin: 0;
+}
 .wrapper{
     width: 100%;
 }
@@ -946,7 +956,6 @@ a:hover{
     flex-direction: column;
     text-align: center;
     padding: 0;
-    
 }
 .avocado-img{
     margin: 0;
@@ -990,7 +999,7 @@ a:hover{
 .fonts-green-link{
     position: relative;
     font-size: 40px;
-    line-height: 50px;
+    line-height: 3.5;
     margin-top: 20px;
 }
 .green-menu{
@@ -1002,11 +1011,11 @@ a:hover{
     margin: 0 auto;
 }
 .fonts-green-1{
-    line-height: 70px;
+    line-height: 5;
     font-size: 60px;
 }
 .fonts-green{
-    line-height: 60px;
+    line-height: 4.2;
     font-size: 50px;
 }
 .fitnes-first{
@@ -1030,7 +1039,7 @@ a:hover{
 }
 .read-more{
     font-size: 50px;
-    line-height: 25px;
+    line-height: 1.7;
 }
 .gray-mango{
     width:4%;
@@ -1233,300 +1242,306 @@ a:hover{
 }
 }
 @media only screen  and (max-width:419px){
-    .wrapper{
-        width: 100%;
-    }
-    .home-avocado{
-        margin: 0 auto;
-        flex-direction: column;
-    }
-    .burger{
-        flex-direction: column;
-        text-align: center;
-        padding: 0;
-        
-    }
-    .avocado-img{
-        margin: 0;
-    }
-    .burger-menu{
-        margin: 0 auto;
-        line-height:1;
-        font-size:60px;
-        padding-top: 20px;
-    }
-    .media-dis{
-        margin: 0 auto;
-    }
-    .fintes-hr{
-        margin: 0 auto;
-        position: relative;
-        width: 100%;
-        text-align:center;
-    }
-    .fitnes-hr-green{
-        font-size: 80px;
-    }
-    .home-fonts{
-        font-size: 40px;
-    }
-    .avocado-img{
-        width: 130%
-    }
-    .fitnes-hr-red{
-        display: flex;
-        justify-content: center;
-        margin: 0;
-        font-size: 60px;
-    }
-    .icon{
-        margin: 0 auto;
-        margin-top: 100px;
-        width: 15%;
-        
-    }
-    .fonts-green-link{
-        position: relative;
-        font-size: 40px;
-        line-height: 50px;
-        margin-top: 20px;
-    }
-    .green-menu{
-        flex-direction: column;
-    }
-    .block-flex-colum{
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-    }
-    .fonts-green-1{
-        line-height: 70px;
-        font-size: 60px;
-    }
-    .fonts-green{
-        line-height: 60px;
-        font-size: 50px;
-    }
-    .fitnes-first{
-        width: 100%;
-    }
-    .fintes-second{
-        width: 100%;
-    }
-    .fitnes-first .lorem{
-        line-height: 2;
-        font-size: 60px;
-        padding-bottom: 15px;
-        width: 100%
-    }
-    .green-red-text{
-        font-size: 60px;
-        line-height: 2;
-    }
-    .green-green-text{
-        font-size: 60px;
-    }
-    .read-more{
-        font-size: 50px;
-        line-height: 25px;
-    }
-    .gray-mango{
-        width:4%;
-        margin-top: 20px
-    }
-    .one-man-img{
-        display: none;
-    }
-    .strawberry-img{
-        display: none;
-    }
-    .white-mango-img{
-        display: none;
-    }
-    .fintes-second .lorem{
-        line-height: 2;
-        font-size: 60px;
-        padding-bottom: 15px;
-        width: 100%
-    }
-    .img-woman{
-        display: none;
-    }
-    .img-clock{
-        display: none;
-    }
-    .red-photo {
-        display: none;
-    }
-    .red-photo-2{
-        display: none;
-    }
-    .red-text-first{
-        flex-direction: column;
-    }
-    .red-text-white{
-        width: 100%;
-        margin: 0 auto;
-        text-align: center;
-    }
-    .one-man{
-        justify-content: center;
-    }
-    .green-red-text-2{
-        font-size: 60px;
-        line-height: 2;
-    }
-    .lorem-2{
-        margin: 0 auto;
-        font-size: 60px;
-        line-height: 2;
-        padding-bottom: 10px;
-        max-width: 100%
-    }
-    .red-text-green,.green-h1{
-        width: 100%;
-        text-align: center;
-        padding-top: 25px;
-        font-size: 60px;
-        line-height: 2;
-    }
-    .green-h1{
-        margin: 0
-    }
-    .green-green-text-2{
-        font-size: 60px;
-        line-height: 2
-    }
-    .red-text-green .green-lorem{
-        font-size: 60px;
-        line-height: 2;
-        margin: 0 auto;
-        margin-top: 20px;
-        max-width: 100%
-    }
-    .red-img{
-        display: none;
-    }
-    .red-text{
-        flex-direction: column;
-        text-align: center;
-    }
-    .red-text-green-1,.Strawberry{
-        width: 100%;
-        justify-content: center;
-    }
-    .lorem-1{
-        margin: 0 auto;
-        font-size: 60px;
-        line-height: 2;
-        padding-bottom: 10px;
-        max-width: 100%;
-        width:100%;
-    }
-    .white-h1{
-        font-size:60px;
-        line-height: 2;
-    }
-    .green-h1-1{
-        font-size:60px;
-        line-height: 2;
-    }
-    .green-red-text-1{
-        font-size: 60px;
-        line-height: 2;
-    }
-    .green-green-text-1{
-        font-size: 60px;
-        line-height: 2;
-    }
-    .red-text-white-1,.white-mango{
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-    }
-    .red-text-white-1 .green-lorem-1{
-        font-size: 60px;
-        line-height: 2;
-        margin: 0 auto;
-        padding-bottom: 15px;
-        max-width: 100%;
-    }
-    .text-footer{
-        font-size: 80px;
-        line-height: 2;
-    }
-    .footer-lorem{
-        font-size: 60px;
-        line-height: 1.2;
-        text-align: center;
-        max-width: 100%
-    }
-    .last-footer-1{
-        flex-direction: column;
-        text-align: center;
-    }
-    .footer-p,.last-footer-text{
-        font-size:60px;
-        line-height: 2;
-        max-width: none;
-    }
-    .about-us{
-        margin: 0 auto;
-    }
-    .content-flex{
-        flex-direction: column;
-    }
-    .content-column,.footer-icon-size{
-        margin: 0;
-    }
-    .flex-email{
-        flex-direction: column;
-        margin: 0 auto;
-    }
-    .input-name{
-        padding: 20px;
-        width: 340px;
-        height: 49px;
-        border-radius: 2px;
-        margin-right: 10px;
-    }
-    .resources .last-footer-text{
-        margin: 0 auto;
-        font-size: 60px;
-        line-height: 2;
-        max-width: 100%
-    }
-    .footer-icon img{
-        width: 100%;
-        min-height: 40px;
-        display: flex;
-        margin-bottom: 20px;
-    }
-    .flex-email{
-        width: 100%
-    }
-    .input-email{
-        padding: 20px;
-        width: 50%;
-        height: 80px;
-        border-radius: 5px;
-        margin: 0 auto;
-        font-size: 40px;
-        line-height: 2;
-    }
-    .input-name{
-        padding: 20px;
-        width: 50%;
-        height: 80px;
-        border-radius: 5px;
-        margin: 0 auto;
-        font-size: 40px;
-        line-height: 2;
-    }
-    .arrow-flex{
-        margin: 0 auto;
-        width: 50%;
-        font-size: 40px;
-        height: 80px;
-    }
+.wrapper{
+    width: 100%;
+}
+.home-page{
+    height: 100%;
+}
+.size-icon{
+    margin: 0;
+}
+.home-avocado{
+    margin: 0 auto;
+    flex-direction: column;
+}
+.burger{
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    
+}
+.avocado-img{
+    margin: 0;
+}
+.burger-menu{
+    margin: 0 auto;
+    line-height:1;
+    font-size:60px;
+    padding-top: 20px;
+}
+.media-dis{
+    margin: 0 auto;
+}
+.fintes-hr{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    text-align:center;
+}
+.fitnes-hr-green{
+    font-size: 80px;
+}
+.home-fonts{
+    font-size: 40px;
+}
+.avocado-img{
+    width: 130%
+}
+.fitnes-hr-red{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 60px;
+}
+.icon{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 15%;
+    
+}
+.fonts-green-link{
+    position: relative;
+    font-size: 40px;
+    line-height: 3.5;
+    margin-top: 20px;
+}
+.green-menu{
+    flex-direction: column;
+}
+.block-flex-colum{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.fonts-green-1{
+    line-height: 5;
+    font-size: 60px;
+}
+.fonts-green{
+    line-height: 4.2;
+    font-size: 50px;
+}
+.fitnes-first{
+    width: 100%;
+}
+.fintes-second{
+    width: 100%;
+}
+.fitnes-first .lorem{
+    line-height: 2;
+    font-size: 60px;
+    padding-bottom: 15px;
+    width: 100%
+}
+.green-red-text{
+    font-size: 60px;
+    line-height: 2;
+}
+.green-green-text{
+    font-size: 60px;
+}
+.read-more{
+    font-size: 50px;
+    line-height: 1.7;
+}
+.gray-mango{
+    width:4%;
+    margin-top: 20px
+}
+.one-man-img{
+    display: none;
+}
+.strawberry-img{
+    display: none;
+}
+.white-mango-img{
+    display: none;
+}
+.fintes-second .lorem{
+    line-height: 2;
+    font-size: 60px;
+    padding-bottom: 15px;
+    width: 100%
+}
+.img-woman{
+    display: none;
+}
+.img-clock{
+    display: none;
+}
+.red-photo {
+    display: none;
+}
+.red-photo-2{
+    display: none;
+}
+.red-text-first{
+    flex-direction: column;
+}
+.red-text-white{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.one-man{
+    justify-content: center;
+}
+.green-red-text-2{
+    font-size: 60px;
+    line-height: 2;
+}
+.lorem-2{
+    margin: 0 auto;
+    font-size: 60px;
+    line-height: 2;
+    padding-bottom: 10px;
+    max-width: 100%
+}
+.red-text-green,.green-h1{
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 60px;
+    line-height: 2;
+}
+.green-h1{
+    margin: 0
+}
+.green-green-text-2{
+    font-size: 60px;
+    line-height: 2
+}
+.red-text-green .green-lorem{
+    font-size: 60px;
+    line-height: 2;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 100%
+}
+.red-img{
+    display: none;
+}
+.red-text{
+    flex-direction: column;
+    text-align: center;
+}
+.red-text-green-1,.Strawberry{
+    width: 100%;
+    justify-content: center;
+}
+.lorem-1{
+    margin: 0 auto;
+    font-size: 60px;
+    line-height: 2;
+    padding-bottom: 10px;
+    max-width: 100%;
+    width:100%;
+}
+.white-h1{
+    font-size:60px;
+    line-height: 2;
+}
+.green-h1-1{
+    font-size:60px;
+    line-height: 2;
+}
+.green-red-text-1{
+    font-size: 60px;
+    line-height: 2;
+}
+.green-green-text-1{
+    font-size: 60px;
+    line-height: 2;
+}
+.red-text-white-1,.white-mango{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.red-text-white-1 .green-lorem-1{
+    font-size: 60px;
+    line-height: 2;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    max-width: 100%;
+}
+.text-footer{
+    font-size: 80px;
+    line-height: 2;
+}
+.footer-lorem{
+    font-size: 60px;
+    line-height: 1.2;
+    text-align: center;
+    max-width: 100%
+}
+.last-footer-1{
+    flex-direction: column;
+    text-align: center;
+}
+.footer-p,.last-footer-text{
+    font-size:60px;
+    line-height: 2;
+    max-width: none;
+}
+.about-us{
+    margin: 0 auto;
+}
+.content-flex{
+    flex-direction: column;
+}
+.content-column,.footer-icon-size{
+    margin: 0;
+}
+.flex-email{
+    flex-direction: column;
+    margin: 0 auto;
+}
+.input-name{
+    padding: 20px;
+    width: 340px;
+    height: 49px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+.resources .last-footer-text{
+    margin: 0 auto;
+    font-size: 60px;
+    line-height: 2;
+    max-width: 100%
+}
+.footer-icon img{
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.flex-email{
+    width: 100%
+}
+.input-email{
+    padding: 20px;
+    width: 50%;
+    height: 80px;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 2;
+}
+.input-name{
+    padding: 20px;
+    width: 50%;
+    height: 80px;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 2;
+}
+.arrow-flex{
+    margin: 0 auto;
+    font-size: 40px;
+    height: 80px;
+    width: 50%;
+}
 }
