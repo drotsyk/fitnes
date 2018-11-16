@@ -750,7 +750,6 @@ a:hover{
 .burger-menu{
     margin: 0 auto;
     line-height: 2;
-    font-size:30px;
     padding-top: 20px;
 }
 .media-dis{
@@ -774,7 +773,6 @@ a:hover{
 }
 .fonts-green-link{
     position: relative;
-    font-size: 25px;
     line-height: 2;
     margin-top: 20px;
 }
@@ -788,11 +786,9 @@ a:hover{
 }
 .fonts-green-1{
     line-height: 2.2;
-    font-size: 40px;
 }
 .fonts-green{
     line-height:2;
-    font-size: 27px;
 }
 .fitnes-first{
     width: 100%;
@@ -802,14 +798,11 @@ a:hover{
 }
 .fitnes-first .lorem{
     line-height: 2.2;
-    font-size: 25px;
     padding-bottom: 15px;
 }
 .green-red-text{
-    font-size: 30px;
 }
 .read-more{
-    font-size: 20px;
     line-height: 1.7;
 }
 .gray-mango{
@@ -817,7 +810,6 @@ a:hover{
 }
 .fintes-second .lorem{
     line-height: 2.2;
-    font-size: 25px;
     padding-bottom: 15px;
 }
 .img-woman{
@@ -844,12 +836,10 @@ a:hover{
     justify-content: center;
 }
 .green-red-text-2{
-    font-size: 30px;
     line-height: 1.4;
 }
 .lorem-2{
     margin: 0 auto;
-    font-size: 25px;
     line-height: 2.2;
     padding-bottom: 10px;
 }
@@ -862,7 +852,6 @@ a:hover{
     margin: 0
 }
 .red-text-green .green-lorem{
-    font-size: 25px;
     line-height: 1.7;
     margin: 0 auto;
     margin-top: 20px;
@@ -880,17 +869,14 @@ a:hover{
 }
 .lorem-1{
     margin: 0 auto;
-    font-size: 25px;
     line-height: 2.2;
     padding-bottom: 10px;
 }
 .white-h1{
-    font-size: 25px;
     line-height: 2.2;
     margin: 0;
 }
 .green-red-text-1{
-    font-size: 25px;
     line-height: 2.2;
     margin: 0;
 }
@@ -900,13 +886,11 @@ a:hover{
     justify-content: center;
 }
 .red-text-white-1 .green-lorem-1{
-    font-size: 25px;
     line-height: 2.2;
     margin: 0 auto;
     padding-bottom: 15px;
 }
 .footer-lorem{
-    font-size: 25px;
     line-height: 25px;
     text-align: center;
 }
@@ -915,7 +899,6 @@ a:hover{
     text-align: center;
 }
 .footer-p,.last-footer-text{
-    font-size: 25px;
     line-height: 2.2;
 }
 .last-footer .wrapper{
@@ -986,7 +969,6 @@ a:hover{
 }
 
 .home-fonts{
-    font-size: 40px;
 }
 .avocado-img{
     width: 130%
@@ -995,7 +977,6 @@ a:hover{
     display: flex;
     justify-content: center;
     margin: 0;
-    font-size: 60px;
 }
 .icon{
     margin: 0 auto;
@@ -1005,7 +986,6 @@ a:hover{
 }
 .fonts-green-link{
     position: relative;
-    font-size: 40px;
     line-height: 3.5;
     margin-top: 20px;
 }
@@ -1019,11 +999,9 @@ a:hover{
 }
 .fonts-green-1{
     line-height: 5;
-    font-size: 60px;
 }
 .fonts-green{
     line-height: 4.2;
-    font-size: 50px;
 }
 .fitnes-first{
     width: 100%;
@@ -1033,19 +1011,15 @@ a:hover{
 }
 .fitnes-first .lorem{
     line-height: 2;
-    font-size: 60px;
     padding-bottom: 15px;
     width: 100%
 }
 .green-red-text{
-    font-size: 60px;
     line-height: 2;
 }
 .green-green-text{
-    font-size: 60px;
 }
 .read-more{
-    font-size: 50px;
     line-height: 1.7;
 }
 .gray-mango{
@@ -1063,7 +1037,6 @@ a:hover{
 }
 .fintes-second .lorem{
     line-height: 2;
-    font-size: 60px;
     padding-bottom: 15px;
     width: 100%
 }
@@ -1091,12 +1064,10 @@ a:hover{
     justify-content: center;
 }
 .green-red-text-2{
-    font-size: 60px;
     line-height: 2;
 }
 .lorem-2{
     margin: 0 auto;
-    font-size: 60px;
     line-height: 2;
     padding-bottom: 10px;
     max-width: 100%
@@ -1105,19 +1076,16 @@ a:hover{
     width: 100%;
     text-align: center;
     padding-top: 25px;
-    font-size: 60px;
     line-height: 2;
 }
 .green-h1{
     margin: 0
 }
 .green-green-text-2{
-    font-size: 60px;
     line-height: 2;
     margin: 0;
 }
 .red-text-green .green-lorem{
-    font-size: 60px;
     line-height: 2;
     margin: 0 auto;
     margin-top: 20px;
@@ -1136,7 +1104,6 @@ a:hover{
 }
 .lorem-1{
     margin: 0 auto;
-    font-size: 40px;
     line-height: 2;
     padding-bottom: 10px;
     max-width: 100%;
@@ -1144,21 +1111,17 @@ a:hover{
     margin:0;
 }
 .white-h1{
-    font-size:60px;
     line-height: 2;
     margin: 0;
 }
 .green-h1-1{
-    font-size:60px;
     line-height: 2;
 }
 .green-red-text-1{
-    font-size: 60px;
     line-height: 2;
     margin: 0;
 }
 .green-green-text-1{
-    font-size: 60px;
     line-height: 2;
     margin: 0;
 }
@@ -1168,7 +1131,6 @@ a:hover{
     justify-content: center;
 }
 .red-text-white-1 .green-lorem-1{
-    font-size: 60px;
     line-height: 2;
     margin: 0 auto;
     padding-bottom: 15px;
@@ -1179,7 +1141,6 @@ a:hover{
     text-align: center;
 }
 .footer-lorem{
-    font-size: 40px;
     line-height: 1.2;
     text-align: center;
     max-width: 100%
@@ -1189,7 +1150,6 @@ a:hover{
     text-align: center;
 }
 .footer-p,.last-footer-text{
-    font-size:60px;
     line-height: 2;
     max-width: none;
 }
@@ -1215,7 +1175,6 @@ a:hover{
 }
 .resources .last-footer-text{
     margin: 0 auto;
-    font-size: 60px;
     line-height: 2;
     max-width: 100%
 }
@@ -1234,7 +1193,6 @@ a:hover{
     height: 80px;
     border-radius: 5px;
     margin: 0 auto;
-    font-size: 40px;
     line-height: 2;
 }
 .input-name{
@@ -1243,13 +1201,11 @@ a:hover{
     height: 80px;
     border-radius: 5px;
     margin: 0 auto;
-    font-size: 40px;
     line-height: 2;
 }
 .arrow-flex{
     margin: 0 auto;
     width: 50%;
-    font-size: 40px;
     height: 80px;
 }
 }
@@ -1264,6 +1220,7 @@ a:hover{
     width: 100%;
 }
 .home-page{
+height: 100%;
 }
 .size-icon{
     margin: 0;
@@ -1295,10 +1252,8 @@ a:hover{
     text-align:center;
 }
 .fitnes-hr-green{
-    font-size: 25px;
 }
 .home-fonts{
-    font-size: 40px;
 }
 .avocado-img{
     width: 130%
@@ -1307,7 +1262,6 @@ a:hover{
     display: flex;
     justify-content: center;
     margin: 0;
-    font-size: 60px;
 }
 .icon{
     margin: 0 auto;
@@ -1317,7 +1271,6 @@ a:hover{
 }
 .fonts-green-link{
     position: relative;
-    font-size: 40px;
     line-height: 3.5;
     margin-top: 20px;
 }
@@ -1331,11 +1284,9 @@ a:hover{
 }
 .fonts-green-1{
     line-height: 5;
-    font-size: 60px;
 }
 .fonts-green{
     line-height: 4.2;
-    font-size: 50px;
 }
 .fitnes-first{
     width: 100%;
@@ -1345,19 +1296,16 @@ a:hover{
 }
 .fitnes-first .lorem{
     line-height: 2;
-    font-size: 60px;
     padding-bottom: 15px;
     width: 100%
 }
 .green-red-text{
-    font-size: 60px;
     line-height: 2;
 }
 .green-green-text{
-    font-size: 60px;
+    font-size: 14px
 }
 .read-more{
-    font-size: 50px;
     line-height: 1.7;
 }
 .gray-mango{
@@ -1375,7 +1323,6 @@ a:hover{
 }
 .fintes-second .lorem{
     line-height: 2;
-    font-size: 60px;
     padding-bottom: 15px;
     width: 100%
 }
@@ -1403,12 +1350,11 @@ a:hover{
     justify-content: center;
 }
 .green-red-text-2{
-    font-size: 60px;
     line-height: 2;
+    margin: 0;
 }
 .lorem-2{
     margin: 0 auto;
-    font-size: 60px;
     line-height: 2;
     padding-bottom: 10px;
     max-width: 100%
@@ -1417,19 +1363,18 @@ a:hover{
     width: 100%;
     text-align: center;
     padding-top: 25px;
-    font-size: 60px;
     line-height: 2;
 }
 .green-h1{
-    margin: 0
+    margin: 0;
+    font-size: 14px;
 }
 .green-green-text-2{
-    font-size: 60px;
     line-height: 2;
+    font-size: 14px;
     margin:0;
 }
 .red-text-green .green-lorem{
-    font-size: 60px;
     line-height: 2;
     margin: 0 auto;
     margin-top: 20px;
@@ -1446,9 +1391,8 @@ a:hover{
     width: 100%;
     justify-content: center;
 }
-.lorem-1{
+.red-text-green-1 .lorem-1{
     margin: 0 auto;
-    font-size: 40px;
     line-height: 2;
     padding-bottom: 10px;
     max-width: 100%;
@@ -1456,23 +1400,21 @@ a:hover{
     margin: 0;
 }
 .white-h1{
-    font-size:60px;
     line-height: 2;
     margin: 0;
 }
 .green-h1-1{
-    font-size:60px;
     line-height: 2;
+    margin: 0;
 }
 .green-red-text-1{
-    font-size: 60px;
     line-height: 2;
     margin: 0;
 }
 .green-green-text-1{
-    font-size: 60px;
     line-height: 2;
     margin:0;
+    font-size: 14px;
 }
 .red-text-white-1,.white-mango{
     width: 100%;
@@ -1480,7 +1422,6 @@ a:hover{
     justify-content: center;
 }
 .red-text-white-1 .green-lorem-1{
-    font-size: 60px;
     line-height: 2;
     margin: 0 auto;
     padding-bottom: 15px;
@@ -1491,7 +1432,6 @@ a:hover{
     text-align: center;
 }
 .footer-lorem{
-    font-size: 40px;
     line-height: 1.2;
     text-align: center;
     max-width: 100%
@@ -1501,7 +1441,6 @@ a:hover{
     text-align: center;
 }
 .footer-p,.last-footer-text{
-    font-size:60px;
     line-height: 2;
     max-width: none;
 }
@@ -1520,14 +1459,13 @@ a:hover{
 }
 .input-name{
     padding: 20px;
-    width: 340px;
+    width: 100%;
     height: 49px;
     border-radius: 2px;
     margin-right: 10px;
 }
 .resources .last-footer-text{
     margin: 0 auto;
-    font-size: 40px;
     line-height: 2;
     max-width: 100%
 }
@@ -1542,26 +1480,23 @@ a:hover{
 }
 .input-email{
     padding: 20px;
-    width: 50%;
+    width: 100%;
     height: 80px;
     border-radius: 5px;
     margin: 0 auto;
-    font-size: 40px;
     line-height: 2;
 }
 .input-name{
     padding: 20px;
-    width: 50%;
+    width: 100%;
     height: 80px;
     border-radius: 5px;
     margin: 0 auto;
-    font-size: 40px;
     line-height: 2;
 }
 .arrow-flex{
     margin: 0 auto;
-    font-size: 40px;
     height: 80px;
-    width: 50%;
+    width: 100%;
 }
 }
