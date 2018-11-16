@@ -5,10 +5,9 @@
 body{
     padding: 0;
     margin: 0;
-    min-width: 1195px;
 }
 .wrapper{
-    width:1195px;
+    width:90%;
     margin: 0 auto;
 }
 .media-dis{
@@ -309,7 +308,7 @@ color: #ffffff;
     text-align: left;
 }
 .red-text-green-1{
-    min-height: 330px;
+    padding-bottom:100px;
     background-color:#ffffff;
     width:60%;
 }
@@ -329,6 +328,7 @@ color: #ffffff;
     position: relative;
     margin: 0;
     box-sizing: border-box;
+    padding-top: 100px;
 }
 .footer-img{
     display: flex;
@@ -514,8 +514,6 @@ color: #ffffff;
     font-weight: 400;
     line-height: 1.5;
     text-transform: uppercase;
-    /* Text style for "i, mprove" */
-    letter-spacing: 1.7px;
     margin-top: 55px;
     margin-left: 40px;
 }
@@ -549,7 +547,7 @@ color: #ffffff;
     padding-bottom: 25px;
 }
 .footer-text{
-    height: 40em;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -675,9 +673,6 @@ a:hover{
     line-height: 1.7;
     letter-spacing: 0.16px;
 }
-.resources .last-footer-text{
-    min-width: 446px;
-}
 .triangles {
     --triangle-color: #000;
     --triangle-height: 100px;
@@ -720,7 +715,19 @@ a:hover{
     width: 150%;
 }
 /*---------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+    .wrapper{
+        width: 98%
+    }
+
+}
 @media screen and (min-width: 768px) and (max-width: 1023px){
+    .footer{
+        width: 100%;
+    }
+.footer-text{
+    padding: 0
+}
 .home-page{
     height: 100%;
 }
@@ -882,10 +889,12 @@ a:hover{
 .white-h1{
     font-size: 25px;
     line-height: 2.2;
+    margin: 0;
 }
 .green-red-text-1{
     font-size: 25px;
     line-height: 2.2;
+    margin: 0;
 }
 .red-text-white-1,.white-mango{
     width: 100%;
@@ -939,6 +948,12 @@ a:hover{
 }
 }
 @media only screen  and (min-width: 420px) and (max-width:767px){
+    .footer{
+        height: 100%;
+    }
+    .footer-text{
+        padding: 0
+    }
 .home-page{
     height: 100%;
 }
@@ -1106,7 +1121,8 @@ a:hover{
 }
 .green-green-text-2{
     font-size: 60px;
-    line-height: 2
+    line-height: 2;
+    margin: 0;
 }
 .red-text-green .green-lorem{
     font-size: 60px;
@@ -1128,15 +1144,17 @@ a:hover{
 }
 .lorem-1{
     margin: 0 auto;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 2;
     padding-bottom: 10px;
     max-width: 100%;
     width:100%;
+    margin:0;
 }
 .white-h1{
     font-size:60px;
     line-height: 2;
+    margin: 0;
 }
 .green-h1-1{
     font-size:60px;
@@ -1145,10 +1163,12 @@ a:hover{
 .green-red-text-1{
     font-size: 60px;
     line-height: 2;
+    margin: 0;
 }
 .green-green-text-1{
     font-size: 60px;
     line-height: 2;
+    margin: 0;
 }
 .red-text-white-1,.white-mango{
     width: 100%;
@@ -1163,11 +1183,11 @@ a:hover{
     max-width: 100%;
 }
 .text-footer{
-    font-size: 80px;
     line-height: 2;
+    text-align: center;
 }
 .footer-lorem{
-    font-size: 60px;
+    font-size: 40px;
     line-height: 1.2;
     text-align: center;
     max-width: 100%
@@ -1242,6 +1262,12 @@ a:hover{
 }
 }
 @media only screen  and (max-width:419px){
+    .footer{
+        height: 100%;
+    }
+    .footer-text{
+        padding: 0
+    }
 .wrapper{
     width: 100%;
 }
@@ -1410,7 +1436,8 @@ a:hover{
 }
 .green-green-text-2{
     font-size: 60px;
-    line-height: 2
+    line-height: 2;
+    margin:0;
 }
 .red-text-green .green-lorem{
     font-size: 60px;
@@ -1432,15 +1459,17 @@ a:hover{
 }
 .lorem-1{
     margin: 0 auto;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 2;
     padding-bottom: 10px;
     max-width: 100%;
     width:100%;
+    margin: 0;
 }
 .white-h1{
     font-size:60px;
     line-height: 2;
+    margin: 0;
 }
 .green-h1-1{
     font-size:60px;
@@ -1449,10 +1478,12 @@ a:hover{
 .green-red-text-1{
     font-size: 60px;
     line-height: 2;
+    margin: 0;
 }
 .green-green-text-1{
     font-size: 60px;
     line-height: 2;
+    margin:0;
 }
 .red-text-white-1,.white-mango{
     width: 100%;
@@ -1467,11 +1498,11 @@ a:hover{
     max-width: 100%;
 }
 .text-footer{
-    font-size: 80px;
     line-height: 2;
+    text-align: center;
 }
 .footer-lorem{
-    font-size: 60px;
+    font-size: 40px;
     line-height: 1.2;
     text-align: center;
     max-width: 100%
@@ -1507,7 +1538,7 @@ a:hover{
 }
 .resources .last-footer-text{
     margin: 0 auto;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 2;
     max-width: 100%
 }
