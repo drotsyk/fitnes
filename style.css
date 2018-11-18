@@ -727,8 +727,6 @@ a:hover{
 .footer-text{
     padding: 0
 }
-.home-page{
-}
 .size-icon{
     margin:0;
 }
@@ -799,8 +797,6 @@ a:hover{
 .fitnes-first .lorem{
     line-height: 2.2;
     padding-bottom: 15px;
-}
-.green-red-text{
 }
 .read-more{
     line-height: 1.7;
@@ -915,20 +911,55 @@ a:hover{
 }
 .flex-email{
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0;
+}
+.input-email{
+    padding: 20px;
+    width: 100%;
+    height: 49px;
+    border-radius: 2px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.arrow-flex{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    height: 49px;
+    border-radius: 3px;
+    background-color: #a2ca28;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 3.5;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.footer-icon{
+    padding-bottom: 10px;
 }
 .input-name{
     padding: 20px;
-    width: 340px;
+    margin-bottom: 5px;
+    width: 100%;
     height: 49px;
     border-radius: 2px;
     margin-right: 10px;
 }
+
 .resources .last-footer-text{
     margin: 0 auto;
 }
 }
 @media only screen  and (min-width: 420px) and (max-width:767px){
+    .wrapper{
+        width: 50%;
+        }
     .footer{
         height: 100%;
     }
@@ -966,9 +997,6 @@ a:hover{
     position: relative;
     width: 100%;
     text-align:center;
-}
-
-.home-fonts{
 }
 .avocado-img{
     width: 130%
@@ -1016,8 +1044,6 @@ a:hover{
 }
 .green-red-text{
     line-height: 2;
-}
-.green-green-text{
 }
 .read-more{
     line-height: 1.7;
@@ -1216,12 +1242,16 @@ a:hover{
 .footer-text{
     padding: 0
 }
+.footer .wrapper{
+    width: 90%;
+}
+.last-footer .wrapper{
+    width: 90%;
+}
 .wrapper{
     width: 100%;
 }
-.home-page{
-height: 100%;
-}
+
 .size-icon{
     margin: 0;
 }
@@ -1250,10 +1280,6 @@ height: 100%;
     position: relative;
     width: 100%;
     text-align:center;
-}
-.fitnes-hr-green{
-}
-.home-fonts{
 }
 .avocado-img{
     width: 130%
